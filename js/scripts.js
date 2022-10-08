@@ -14,3 +14,17 @@ $(function() {
         }
     });
 });
+
+//RESERVE MODAL
+$(function() {
+    $("#reserveButton").click(function(){
+        $("#reserveModal").modal("show");
+    });
+});
+
+//LOGIN MODAL
+$(function() {
+    $("#loginButton").click(function(){
+        $("#loginModal").modal("show");
+    });
+});
